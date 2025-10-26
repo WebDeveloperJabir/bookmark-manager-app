@@ -1,0 +1,111 @@
+{
+  "name": "Emily Carter",
+  "image": "/images/image-avatar.webp",
+  "email": "emily101@gmail.com",
+  "bookmarks": [
+    {
+      "id": "bm-015",
+      "title": "Web.dev",
+      "url": "https://web.dev",
+      "favicon": "./assets/images/favicon-web-dev.png",
+      "description": "Guidance to build modern web experiences that work on any browser. Learn about web vitals, PWAs, and more.",
+      "tags": ["Performance", "Learning", "Tips"],
+      "pinned": true,
+      "isArchived": false,
+      "visitCount": 15,
+      "createdAt": "2024-02-15T12:20:00Z",
+      "lastVisited": "2025-08-16T14:55:00Z"
+    },
+    {
+      "id": "bm-016",
+      "title": "Claude",
+      "url": "https://claude.ai",
+      "favicon": "./assets/images/favicon-claude.png",
+      "description": "An AI assistant created by Anthropic that can help with analysis, writing, coding, math, and creative tasks through natural conversation.",
+      "tags": ["Tools", "AI", "Learning"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 73,
+      "createdAt": "2024-02-18T10:15:00Z",
+      "lastVisited": "2025-09-23T11:20:00Z"
+    },
+    {
+      "id": "bm-018",
+      "title": "Flexbox Zombies",
+      "url": "https://mastery.games/flexboxzombies",
+      "favicon": "./assets/images/favicon-flexbox-zombies.png",
+      "description": "Master flexbox layout in CSS by playing a survival game. Use flexbox to position your crossbow and survive the zombie apocalypse.",
+      "tags": ["CSS", "Practice", "Layout"],
+      "pinned": false,
+      "isArchived": true,
+      "visitCount": 6,
+      "createdAt": "2024-02-22T08:50:00Z",
+      "lastVisited": "2025-04-18T15:30:00Z"
+    },
+    {
+      "id": "bm-008",
+      "title": "CodePen",
+      "url": "https://codepen.io",
+      "favicon": "./assets/images/favicon-codepen.png",
+      "description": "An online code editor and social development environment for front-end designers and developers.",
+      "tags": ["Tools", "Practice", "Community"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 34,
+      "createdAt": "2024-01-25T16:45:00Z",
+      "lastVisited": "2025-09-18T17:30:00Z"
+    },
+    {
+      "id": "bm-009",
+      "title": "CSS Grid Garden",
+      "url": "https://cssgridgarden.com",
+      "favicon": "./assets/images/favicon-css-grid-garden.png",
+      "description": "A game for learning CSS grid layout. Grow your carrot garden by writing CSS grid code.",
+      "tags": ["CSS", "Practice", "Layout"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 8,
+      "createdAt": "2024-02-01T09:00:00Z",
+      "lastVisited": "2025-07-15T15:45:00Z"
+    },
+    {
+      "id": "bm-011",
+      "title": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "favicon": "./assets/images/favicon-freecodecamp.png",
+      "description": "Learn to code for free. Build projects. Earn certifications. An open source community that helps you learn to code with free online courses and certifications.",
+      "tags": ["Learning", "Practice", "Community"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 28,
+      "createdAt": "2024-02-05T10:20:00Z",
+      "lastVisited": "2025-08-30T13:40:00Z"
+    },
+    {
+      "id": "bm-012",
+      "title": "JavaScript.info",
+      "url": "https://javascript.info",
+      "favicon": "./assets/images/favicon-javascript-info.png",
+      "description": "The Modern JavaScript Tutorial. How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
+      "tags": ["JavaScript", "Tutorial", "Learning"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 41,
+      "createdAt": "2024-02-08T11:30:00Z",
+      "lastVisited": "2025-09-15T09:15:00Z"
+    },
+    {
+      "id": "bm-014",
+      "title": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "favicon": "./assets/images/favicon-tailwind.png",
+      "description": "A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+      "tags": ["CSS", "Framework", "Tools"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 52,
+      "createdAt": "2024-02-12T09:45:00Z",
+      "lastVisited": "2025-09-19T16:10:00Z"
+    }
+  ]
+}

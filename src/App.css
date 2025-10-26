@@ -1,0 +1,4 @@
+@tailwind base;      /* includes preflight (normalize/reset) */
+@tailwind components; /* optional, for custom Tailwind components */
+@tailwind utilities;  /* all utility classes */
+

@@ -1,0 +1,59 @@
+{
+  "name": "Alan Walker",
+  "image": "",
+  "email": "alan-walker@yahoo.com",
+  "bookmarks": [
+    {
+      "id": "bm-001",
+      "title": "GitHub",
+      "url": "https://github.com",
+      "favicon": "./assets/images/favicon-github.png",
+      "description": "Where the world builds software. Millions of developers and companies build, ship, and maintain their software on GitHub.",
+      "tags": ["Tools", "Community", "Git"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 198,
+      "createdAt": "2024-01-05T06:00:00Z",
+      "lastVisited": "2025-09-24T15:30:00Z"
+    },
+    {
+      "id": "bm-002",
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "favicon": "./assets/images/favicon-stack-overflow.png",
+      "description": "The largest, most trusted online community for developers to learn, share their knowledge, and build their careers.",
+      "tags": ["Community", "Reference", "Tips"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 234,
+      "createdAt": "2024-01-08T07:30:00Z",
+      "lastVisited": "2025-09-24T11:00:00Z"
+    },
+    {
+      "id": "bm-003",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "favicon": "./assets/images/favicon-mdn.png",
+      "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+      "tags": ["Reference", "HTML", "CSS", "JavaScript"],
+      "pinned": true,
+      "isArchived": false,
+      "visitCount": 152,
+      "createdAt": "2024-01-10T08:15:00Z",
+      "lastVisited": "2025-09-24T09:20:00Z"
+    },
+    {
+      "id": "bm-004",
+      "title": "CSS-Tricks",
+      "url": "https://css-tricks.com",
+      "favicon": "./assets/images/favicon-css-tricks.png",
+      "description": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.",
+      "tags": ["CSS", "Tutorial", "Tips"],
+      "pinned": false,
+      "isArchived": false,
+      "visitCount": 89,
+      "createdAt": "2024-01-12T11:45:00Z",
+      "lastVisited": "2025-09-22T16:30:00Z"
+    }
+  ]
+}
