@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Bookmarks({ bookmarks, className }) {
+export default function Bookmarks({ bookmarks}) {
   function formatDate(dateString) {
     const date = new Date(dateString);
     const day = date.getDate();
@@ -9,7 +9,7 @@ export default function Bookmarks({ bookmarks, className }) {
   }
 
   return (
-    <div className={`bookmarks pt-8 px-7 ${className}`}>
+    <div className='bookmarks pt-8 pb-8 px-7 col-start-2 col-end-3 row-start-2 row-end-3 h-[calc(100vh-60px)] overflow-y-auto'>
       <div className='flex items-center justify-between mb-6'>
         <h2 className='text-2xl font-bold'>All bookmarks</h2>
         <button className='flex bg-white p-1 px-3 gap-2 font-semibold items-center rounded-lg border-[1px] border-[#CED2D3]'>
@@ -70,7 +70,9 @@ export default function Bookmarks({ bookmarks, className }) {
             </div>
           ))
         ) : (
-          <p className='text-center text-[#4C5C59]'>No bookmarks found</p>
+          <div className='w-full mt-[15%] flex justify-center items-center'>
+            <h2 className='text-[3vw] font-bold opacity-[0.5]'>No Bookmarks here</h2>
+          </div>
         )}
       </div>
     </div>

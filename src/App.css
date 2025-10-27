@@ -1,4 +1,22 @@
-@tailwind base;      /* includes preflight (normalize/reset) */
-@tailwind components; /* optional, for custom Tailwind components */
-@tailwind utilities;  /* all utility classes */
+@tailwind utilities;
 
+.side-nav.active {
+  display: flex !important;
+}
+
+@media screen and (max-width: 768px) {
+  .side-nav {
+    display: none;
+    position: absolute;
+    width: 300px;
+  }
+  .sidenav-toggle {
+    display: block;
+  }
+  .topbar {
+    grid-column: 1/3;
+  }
+  .bookmarks {
+    grid-column: 1/3;
+  }
+}

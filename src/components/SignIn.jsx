@@ -49,6 +49,10 @@ export default function SignIn() {
     }
   }
 
+  function guestMode() {
+    navigate("/dashboard", { state: { userData: { name: "Guest", image: "/images/icon-guest-mode.svg", email: "You're in Guest Mode" } } });
+  }
+
   return (
     <div className='sign-in-container flex justify-center items-center min-h-screen'>
       <div className='sign-in shadow-xl p-[30px] min-w-[200px] w-[400px] rounded-2xl bg-white'>
@@ -121,7 +125,7 @@ export default function SignIn() {
           </p>
           <p className='text-[13px] text-[#62716E]'>
             Want to browse as a guest?{" "}
-            <a href='#' className='font-medium text-black hover:text-[#014745]'>
+            <a href='' onClick={guestMode} className='font-medium text-black hover:text-[#014745]'>
               Continue
             </a>
           </p>
